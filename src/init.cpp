@@ -2268,3 +2268,4 @@ bool StartIndexBackgroundSync(NodeContext& node)
     for (auto index : node.indexes) if (!index->StartBackgroundSync()) return false;
     return true;
 }
+//This code was modified by Advaxe
